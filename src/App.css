@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.myitem{
+  background-color: blueviolet !important;
+  color: white;
+}
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_left
+ {
+  flex: 0.8;
+}
+
+
+.app_right{
+  flex: 0.3;
+  overflow: scroll;
+  height: 600px;
+  }
+.title{
+  background-color: black;
+  color: white;
+}
+@media (max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+}
