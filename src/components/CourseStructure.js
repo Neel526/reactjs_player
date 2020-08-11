@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactPlayer from 'react-player'
 import '../App.css'
 
-//https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=10&playlistId=PLB97yPrFwo5hpOay4v2nnDuUCZQMwyQzF&key=AIzaSyA6soqje2VYXSq8rHGfq1PCsjdJ1oYTp0Q
-
+//https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=10&playlistId=PLB97yPrFwo5hpOay4v2nnDuUCZQMwyQzF&key=[YOUR API KEY]
 function Course(props) {
   const courseName = props.match.params.coursename;
   const [courses, setCourses] = useState([])
